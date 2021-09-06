@@ -1,0 +1,40 @@
+.messages_content {
+  display: flex;
+}
+.messages_content .messagesPage_dialogs {
+  padding: 10px 20px 10px 10px;
+}
+.messages_content .messagesPage_dialogs .dialogs__item {
+  border-radius: 10px 20px 10px 10px;
+  border: 1px solid #9b9b9b;
+  padding: 10px 15px 10px 10px;
+  margin-bottom: 10px;
+  transition: all 0.4s;
+  font-weight: 600;
+}
+.messages_content .messagesPage_dialogs .dialogs__item:hover {
+  border-radius: 10px;
+  background: #e8e8e8;
+  color: #61DAFB;
+}
+.messages_content .messagesPage_messages {
+  margin-right: 50px;
+  padding: 10px 20px 10px 50px;
+  border-left: 1px solid #9b9b9b;
+}
+.messages_content .messagesPage_messages .messages__item {
+  border-radius: 0px 10px 20px 10px;
+  border: 1px solid #9b9b9b;
+  padding: 10px 15px 10px 10px;
+  margin-bottom: 10px;
+  transition: all 0.4s;
+}
+.messages_content .messagesPage_messages .messages__item:hover {
+  border-radius: 10px;
+  background: #e8e8e8;
+  color: #61DAFB;
+}
+.messagesPage__title {
+  margin-left: 10px;
+}
+/*# sourceMappingURL=Messages.module.css.map */
