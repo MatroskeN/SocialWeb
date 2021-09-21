@@ -1,4 +1,4 @@
-import MainPage from "../components/MainPage/MainPage";
+import MainPage from "./MainPage/MainPage";
 import {Route} from "react-router-dom";
 import Messages from "../components/Messages/Messages";
 import News from "../components/News/News";

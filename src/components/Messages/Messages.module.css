@@ -3,6 +3,8 @@
 }
 .messages_content .messagesPage_dialogs {
   padding: 10px 20px 10px 10px;
+  display: flex;
+  flex-direction: column;
 }
 .messages_content .messagesPage_dialogs .dialogs__item {
   border-radius: 10px 20px 10px 10px;
@@ -15,6 +17,11 @@
 .messages_content .messagesPage_dialogs .dialogs__item:hover {
   border-radius: 10px;
   background: #e8e8e8;
+  color: #61DAFB;
+}
+.messages_content .messagesPage_dialogs .active {
+  background: #9b9b9b;
+  border-radius: 10px;
   color: #61DAFB;
 }
 .messages_content .messagesPage_messages {
@@ -31,7 +38,6 @@
 }
 .messages_content .messagesPage_messages .messages__item:hover {
   border-radius: 10px;
-  background: #e8e8e8;
   color: #61DAFB;
 }
 .messagesPage__title {

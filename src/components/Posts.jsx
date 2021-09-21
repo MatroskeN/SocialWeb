@@ -1,7 +1,11 @@
 import PostItem from "./PostItem";
 
 
-function Posts() {
+function Posts(props) {
+    let postData = [
+        {id:1,message:"Why no one loves me wtf"},
+        {id:2,message:"Haha dat cause me stupid"}
+    ]
     return (
         <div className="posts__block">
             <h3 className="posts__title">My posts</h3>
@@ -14,8 +18,8 @@ function Posts() {
             </div>
             <hr/>
             <div className="post__content">
-                <PostItem message='Why no one loves me wtf'/>
-                <PostItem message='Haha dat cause me stupid'/>
+                <PostItem message={postData[0].message} profileName={props.profileName} postTime={props.postTime}/>
+                <PostItem message={postData[1].message} profileName={props.profileName} postTime={props.postTime}/>
             </div>
         </div>
     )

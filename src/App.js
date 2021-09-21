@@ -4,7 +4,7 @@ import Navigation from "./components/Navigation/Navigation";
 import Content from "./containers/Content";
 import {BrowserRouter} from "react-router-dom";
 
-global.element = 'Mr. Cayn Wrynn';
+
 global.time = '20:49';
 
 function App() {

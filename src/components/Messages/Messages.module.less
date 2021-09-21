@@ -2,6 +2,8 @@
   display: flex;
   .messagesPage_dialogs{
     padding: 10px 20px 10px 10px;
+    display: flex;
+    flex-direction: column;
     .dialogs__item{
       border-radius: 10px 20px 10px 10px;
       border: 1px solid #9b9b9b;
@@ -14,6 +16,11 @@
         background: #e8e8e8;
         color: #61DAFB;
       }
+    }
+    .active{
+      background: #9b9b9b;
+      border-radius: 10px;
+      color: #61DAFB;
     }
   }
   .messagesPage_messages{
@@ -28,7 +35,6 @@
       transition: all 0.4s;
       &:hover{
         border-radius: 10px;
-        background: #e8e8e8;
         color: #61DAFB;
       }
     }
